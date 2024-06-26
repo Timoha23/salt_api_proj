@@ -1,0 +1,19 @@
+# ... any settings
+
+rest_cherrypy:
+  port: 8001
+  host: 0.0.0.0
+  ssl_crt: /etc/salt/tls/certs/localhost.crt
+  ssl_key: /etc/salt/tls/certs/localhost.key
+
+
+external_auth:
+  file:
+    ^filename: /etc/salt/creds.txt
+    test:
+      - .*
+    test_2:
+      - .*
+
+netapi_enable_clients:
+  - local
