@@ -109,9 +109,9 @@ systemctl start salt-api
   ```
   curl -sSk http://<ip>:<port> \
     -H 'Accept: application/json' \
-    -H 'X-Auth-Token: <token>'
-    -d client=local
-    -d tgt='*'
+    -H 'X-Auth-Token: <token>' \
+    -d client=local \
+    -d tgt='*' \
     -d fun=test.ping
   ```
 
