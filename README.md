@@ -119,7 +119,7 @@ systemctl start salt-api
 
 
 
-### Полезные источники
+### Источники
 
 1. [PYTHON CLIENT API](https://docs.saltproject.io/en/latest/ref/clients/index.html)
 2. [EXTERNAL AUTHENTICATION SYSTEM](https://docs.saltproject.io/en/latest/topics/eauth/index.html)
