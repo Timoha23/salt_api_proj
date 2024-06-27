@@ -11,8 +11,10 @@ external_auth:
     ^filename: /etc/salt/creds.txt
     test:
       - .*
+      - '@runners'
     test_2:
       - .*
+      - '@runners'
 
 netapi_enable_clients:
   - .*
