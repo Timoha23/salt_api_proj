@@ -3,7 +3,7 @@
 #     - name: sleeper.run
 
 
-{% for i in range(3) %}
+{% for i in range(100) %}
 run_a_{{ i }}:
   module.run:
     - name: a.run
