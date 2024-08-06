@@ -2,5 +2,5 @@ import time
 
 
 def run():
-    time.sleep(120)
+    time.sleep(10)
     return 1
